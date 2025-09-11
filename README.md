@@ -1,2 +1,2 @@
 # Object-Oriented-Programming-C-Plus-Plus
-ECE 2310 Labs
+Contains all labs for ECE 3210 @ Cal Poly Pomona
