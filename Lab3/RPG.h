@@ -31,4 +31,4 @@ class RPG
         float exp;
         int level;
 };
-#endif
+#endif  

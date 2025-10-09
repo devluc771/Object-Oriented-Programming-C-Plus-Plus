@@ -13,7 +13,7 @@ void printMemVec(const vector<int> vector, int size)
     printf("Vector - Each int is worth %lu bytes\n", sizeof(vector[0]));
     for(int i = 0; i < size; i++)
     {
-        printf("Value: %i at Memory Location: %p\n", vector[i], &vector + i);
+        printf("Value: %i at Memory Location: %p\n", vector[i], &vector[i]);
     }
 }
 

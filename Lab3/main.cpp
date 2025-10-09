@@ -17,8 +17,8 @@ int main()
     printf("\n%s hits taken: ", p2.getName().c_str());
     cout << p2.getHitsTaken();
     cout << "\n0 is dead, 1 is alive\n";
-    p1.isAlive();
-    p2.isAlive();
+    cout << p1.getName().c_str() << " " << p1.isAlive() << "\n";
+    cout << p2.getName().c_str() << " " << p2.isAlive();
 
     return 0; 
 }
