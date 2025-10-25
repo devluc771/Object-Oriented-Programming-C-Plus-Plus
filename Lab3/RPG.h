@@ -13,9 +13,13 @@ class RPG
         RPG();
         RPG(string name, int hits_taken, float luck, float exp, int level);
 
+        //destructor
+        ~RPG();
+
         //mutators
         bool isAlive() const;
         void setHitsTaken(int new_hits);
+        void setName(string name);
 
         //accessors
         string getName() const;
@@ -23,6 +27,9 @@ class RPG
         float getLuck() const;
         float getExp() const;
         int getLevel() const;
+        void updateExpLevel();
+        void attack(RPG * opponent);
+        void printStats();
 
     private: 
         string name;
